@@ -29,12 +29,12 @@
         "@fortawesome/fontawesome-free": "5.7.2",
         "bootstrap": "4.3.1",
         "braces": "^2.3.2",
-        "jquery": "3.3.1",
+        "jquery": "^3.4.1",
         "micromatch": "^3.1.10",
         "popper.js": "^1.14.7"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^2.26.5",
         "gulp": "^4.0.0",
         "gulp-autoprefixer": "6.0.0",
         "gulp-clean-css": "4.0.0",
