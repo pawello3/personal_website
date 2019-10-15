@@ -87,7 +87,7 @@
                 seconds = Math.floor((-distance % (1000 * 60)) / 1000);
                 var points = Math.pow(2, hoursRoundedUp - 1);
 
-                if (points < 32) {
+                if (points < 32 && -days < 1) {
                     if (points == 1) {
                         document.getElementById(elemId).innerHTML = "Deadline has passed by " + hours + ":" + minutes.pad(2) + ":" + seconds.pad(2) + ". If you submit now, your submission will be subject to a pentalty of " + points + " point.";
                     }
